@@ -7,3 +7,27 @@
     height: fit-content;
     width: fit-content;
 }
+#container{
+    background-color:#FFF;
+    padding:10px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:20px29px 10px -12px rgba(10,62,255,0.74);
+    -webkit-box-shadow:20px 29px 10px -12px rgba(10,62,255,0.74);
+    -moz-box-shadow: 20px 29px 10px -12px rgba(10,62,255,0.74);
+
+}
+
+#navSuperior{
+    background-color: red;
+    color:#FFF;
+    text-transform: uppercase;
+    padding:15px;
+    border-radius: 25px;
+}
+a{
+    color:aquamarine;
+}
+a:visited{
+    color: red;
+}
