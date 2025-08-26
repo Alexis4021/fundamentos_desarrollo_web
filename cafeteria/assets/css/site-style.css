@@ -1,0 +1,27 @@
+body{
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.content{
+    background-color: #fff;
+    margin: 10px;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0 4px 10px silver;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: #7f5a1a;
+    padding: 10px 0px 10px 15px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
