@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <form autocomplete="off">
+            <fieldset>
+                <legend><h5>Datos personales</h5></legend>
+                <label for="txtMatricula">Matricula:</label>
+                <input id="txtMatricula" type="number" name="txtMatricula" placeholder="Obligatorio">
+                <br>
+                <label for="txtNombre">Nombre:</label>
+                <input id="txtNombre" type="text" name="txtNombre" placeholder="Alan">
+                <br>
+                <label for="txtPrimerApellido">Primer Apellido:</label>
+                <input id="txtPrimerApellido" type="text" name="" >
+                <br>
+                <label for="txtSegundoApellido">Segundo Apellido:</label>
+                <input id="txtSegundoApellido" type="text" name="" >
+            </fieldset>
+            <fieldset>
+                <legend><h4>Datos de contacto</h4></legend>
+                <label for="txtCorreo">Correo:</label>
+                <input id="txtCorreo" type="email" name="txtCorreo" placeholder="ejemplo@ejemplo.com">
+                <br>
+                <label for="txtTelefono">Telefóno</label>
+                <input id="txtTelefono" type="number" name="txtTelefono" placeholder="+52">
+            </fieldset>
+            <fieldset>
+                <legend><h5>Datos academicos</h5></legend>
+                <label for="ddlCarrera">Carrera</label>
+                <select id="ddlCarrera" name="ddlCarrera" >
+                    <option value="0">[Seleccione..]</option>
+                    <option value="1">Lic.Administración</option>
+                    <option value="2">Lic.Contador Publico</option>
+                    <option value="3">Lic. Negocios internacionales</option>
+                    <option value="4">Lic.Tecnologías información</option>
+                </select>
+                <fieldset>
+                    <legend>Semestre</legend>
+                    <br>
+                    <label for="rdSemestre1">1</label>
+                    <input id="rdSemestre1" type="radio" name="rdSemestre1" placeholder="1">
+                    <label for="rdSemestre2">2</label>
+                    <input id="rdSemestre2" type="radio" name="rdSemestre2" placeholder="1">
+                    <label for="rdSemestre3">3</label>
+                    <input id="rdSemestre3" type="radio" name="rdSemestre3" placeholder="1">
+                </fieldset>
+            </fieldset>
+            <br>
+            <label for="txtFechaIngreso">fecha Ingreso</label>
+            <input id="txtFechaIngreso" type="date" name="txtFechaIngreso" >
+            <br>
+            <input id="chkTerminos" type="checkbox" name="chkTerminos" >
+            <label for="chkTerminos">ACEPTO LOS TERMINOS Y CONDICIONES DEL SERVICIO</label>
+            <input id="btnEnviar" type="submit" value="Enviar" placeholder="Enviar">
+            <input type="reset" value="LIMPIAR">
+            <button>Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
